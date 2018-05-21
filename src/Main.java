@@ -10,13 +10,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Read file 'teams.json'
+        // Read file 'teams.txt'
         List<Team> teams = null;
         try {
             teams = getTeamsFromFile();
         } catch (Exception e) {
             e.printStackTrace();
-            System.err.println("Read file 'teams.json' error");
+            System.err.println("Read file 'teams.txt' error");
             System.exit(1);
         }
 
